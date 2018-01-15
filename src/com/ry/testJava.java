@@ -1,6 +1,6 @@
 ﻿package com.ry;
 
-import java.util.Random;
+import java.util.Random;//导包 本程序需要依赖以下两个jar包
 import java.util.Scanner;
 
 public class testJava {
@@ -28,6 +28,7 @@ public class testJava {
 				break;//java 关键字 表示跳出当前循环  此处亦可用flag=false;来替换
 				//作用是一样的 从效率上来说 break直接跳出循环 
 				//而后者会再到while条件判断中再进行一次判断
+				
 			}
 		}
 	}
